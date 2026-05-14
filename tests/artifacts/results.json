@@ -1,0 +1,98 @@
+{
+  "PRJNA649812": [
+    {
+      "doi": "10.1038/s41597-020-00684-y",
+      "publication_title": "Draft genome of Bugula neritina, a colonial animal packing powerful symbionts and potential medicines.",
+      "pub_year": "2020",
+      "status": "\u2713 Extraction complete.",
+      "source": "europepmc",
+      "bioproject_accession": "PRJNA649812",
+      "accession_mentions_in_text": 1,
+      "methodology_details": {
+        "primer_names": [],
+        "primer_sequences": [],
+        "variable_regions": [],
+        "extraction_protocol_and_kits": [],
+        "pcr_conditions_and_kits": [],
+        "sequencing_details": [],
+        "sample_storage": [],
+        "unextracted_flag": null,
+        "unextracted_reason": null,
+        "verification_status": "Unverified (insufficient sequences)",
+        "validated_primers": [],
+        "primer_db_used": true,
+        "llm_used": false,
+        "llm_model": null,
+        "extraction_method": "regex mining only"
+      },
+      "secondary_citations_found": [],
+      "materials_and_methods_section_found": false,
+      "supplementary_info": {
+        "fetched": true,
+        "source": "Europe PMC",
+        "text_length": 25
+      }
+    },
+    {
+      "doi": "10.1093/gigascience/giac021",
+      "publication_title": "Chromosome-level genome assembly, annotation, and phylogenomics of the gooseneck barnacle Pollicipes pollicipes.",
+      "pub_year": "2022",
+      "status": "\u2713 Extraction complete.",
+      "source": "europepmc",
+      "bioproject_accession": "PRJNA649812",
+      "accession_mentions_in_text": 3,
+      "methodology_details": {
+        "primer_names": [],
+        "primer_sequences": [],
+        "variable_regions": [],
+        "extraction_protocol_and_kits": [],
+        "pcr_conditions_and_kits": [],
+        "sequencing_details": [],
+        "sample_storage": [],
+        "unextracted_flag": null,
+        "unextracted_reason": null,
+        "verification_status": "Unverified (insufficient sequences)",
+        "validated_primers": [],
+        "primer_db_used": true,
+        "llm_used": false,
+        "llm_model": null,
+        "extraction_method": "regex mining only"
+      },
+      "secondary_citations_found": [],
+      "materials_and_methods_section_found": false,
+      "supplementary_info": {
+        "fetched": true,
+        "source": "Europe PMC",
+        "text_length": 551
+      }
+    },
+    {
+      "doi": "10.12688/wellcomeopenres.18658.1",
+      "publication_title": "Genomes on a Tree (GoaT): A versatile, scalable search engine for genomic and sequencing project metadata across the eukaryotic tree of life.",
+      "pub_year": "2023",
+      "status": "\u2713 Extraction complete.",
+      "source": "europepmc",
+      "bioproject_accession": "PRJNA649812",
+      "accession_mentions_in_text": 1,
+      "methodology_details": {
+        "primer_names": [],
+        "primer_sequences": [],
+        "variable_regions": [],
+        "extraction_protocol_and_kits": [],
+        "pcr_conditions_and_kits": [],
+        "sequencing_details": [],
+        "sample_storage": [],
+        "unextracted_flag": null,
+        "unextracted_reason": null,
+        "verification_status": "Unverified (insufficient sequences)",
+        "validated_primers": [],
+        "primer_db_used": true,
+        "llm_used": false,
+        "llm_model": null,
+        "extraction_method": "regex mining only"
+      },
+      "secondary_citations_found": [],
+      "materials_and_methods_section_found": false
+    }
+  ]
+}

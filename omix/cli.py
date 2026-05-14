@@ -161,6 +161,10 @@ def fetch_metadata(
     click.echo(f"📁 Loading {input_path} ...")
     result = asyncio.run(
         enrich_metadata_from_path(
+    # --------------------------------------------------------------------------- #
+    #  test
+    # --------------------------------------------------------------------------- #
+
             input_path=input_path,
             output_path=output,
             config=cfg,
@@ -230,6 +234,7 @@ def fetch_publications(
         NCBIAPI(cfg.credentials.email, cfg.credentials.ncbi_api_key, **retry_config),
         SemanticScholarAPI(cfg.credentials.email, **retry_config),
         ArxivAPI(cfg.credentials.email, **retry_config),
+
         BioarxivAPI(cfg.credentials.email, **retry_config),
         CoreAPI(cfg.credentials.email, **retry_config),
         DataciteAPI(cfg.credentials.email, **retry_config),
@@ -525,6 +530,93 @@ def enrich_with_publications(
     except Exception as e:
         click.echo(f"\n❌ Error: {e}", err=True)
         raise click.Abort()
+
+
+# --------------------------------------------------------------------------- #
+#  help (friendly listing)
+# --------------------------------------------------------------------------- #
+
+
+@main.command("help")
+@click.pass_context
+def help_cmd(ctx: click.Context):
+    """Show a concise list of available `omix` commands."""
+    click.echo("omix — available commands:\n")
+    for name, cmd in main.commands.items():
+        # skip hidden/implicit commands
+        if getattr(cmd, "hidden", False):
+            continue
+        summary = (cmd.help or "").splitlines()[0] if cmd.help else ""
+        click.echo(f"- {name}: {summary}")
+
+
+# --------------------------------------------------------------------------- #
+#  test (smoke test)
+# --------------------------------------------------------------------------- #
+
+
+@main.command()
+@click.option("--fixture", type=click.Path(exists=True, path_type=Path),
+              default=Path("tests/fixtures/amplicon_20/demo_input_3_studies.csv"),
+              help="Path to a small fixture CSV to run the smoke pipeline against.")
+@_config_option
+def test(fixture: Path, config: Optional[Path], email: Optional[str], cache_dir: Optional[Path]):
+    """Run a lightweight smoke test to verify core `omix` functionality.
+
+    This test performs non-network checks and runs the local enrichment pipeline
+    with ENA lookups disabled so it can be executed offline.
+    """
+    cfg = _build_config(config, email, cache_dir)
+    setup_logging(cfg.logs_dir)
+
+    click.echo("🔧 Running smoke tests...")
+
+    # 1) basic imports and version
+    try:
+        click.echo(f"• omix version: {__version__}")
+    except Exception as e:
+        click.echo(f"✖ Failed to read version: {e}", err=True)
+        raise click.Abort()
+
+    # 2) Config sanity
+    try:
+        _ = cfg.metadata
+        click.echo("• Config loaded: OK")
+    except Exception as e:
+        click.echo(f"✖ Config load failed: {e}", err=True)
+        raise click.Abort()
+
+    # 3) Primer DB builtin check
+    try:
+        from omix.validators.primer_db import ProbeBaseDatabase
+        _ = ProbeBaseDatabase(use_builtin=True)
+        click.echo("• Built-in primer DB: OK")
+    except Exception:
+        # non-fatal: warn only
+        click.echo("• Built-in primer DB: unavailable (continuing)")
+
+    # 4) Run lightweight enrichment on fixture with ENA disabled
+    try:
+        import asyncio
+        from omix.metadata.file_workflow import enrich_metadata_from_path
+
+        click.echo(f"• Loading fixture: {fixture}")
+        df = asyncio.run(
+            enrich_metadata_from_path(
+                input_path=fixture,
+                output_path=None,
+                config=cfg,
+                enable_ena_lookup=False,
+                preserve_all_rows=True,
+                save_output=False,
+            )
+        )
+        click.echo(f"• Enrichment result: {len(df)} rows × {len(df.columns)} columns")
+    except Exception as e:
+        click.echo(f"✖ Smoke enrichment failed: {e}", err=True)
+        raise click.Abort()
+
+    click.echo("✅ Smoke tests passed.")
 
 
 if __name__ == "__main__":

@@ -1,15 +1,7 @@
 """File-based metadata enrichment workflow.
 
-Provides a flexible entry point for enriching tabular metadata files
-(CSV/TSV/Parquet/JSON) using the existing MetadataManager pipeline.
-
-Key behaviors:
-- Accepts an input file path and infers file format from extension.
-- Detects latitude/longitude columns and maps them to canonical `lat`/`lon`.
-- Detects accession-like columns and uses them for ENA/SRA metadata lookup.
-- Runs `MetadataManager` processing.
-- Preserves rows that cannot be geolocated by merging enriched output back into
-  the original table (configurable).
+This module provides a flexible entry point for enriching tabular metadata
+files (CSV/TSV/Parquet/JSON) using the existing MetadataManager pipeline.
 """
 
 from __future__ import annotations

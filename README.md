@@ -105,3 +105,9 @@ paths:
 ```
 
 Pass it with `--config my_config.yaml` or set environment variables like `OMIX_EMAIL`.
+
+## Documentation
+
+Detailed guides are available in [docs/index.rst](docs/index.rst). The docs
+tree includes installation, usage, configuration, and API reference pages
+backed by Sphinx.

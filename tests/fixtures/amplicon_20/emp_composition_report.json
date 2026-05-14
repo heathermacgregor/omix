@@ -1,0 +1,72 @@
+{
+  "rows": 7557,
+  "columns": 519,
+  "filters": {
+    "omics_type": "amplicon"
+  },
+  "composition": {
+    "sample_category": [
+      {
+        "value": "environmental",
+        "count": 7557,
+        "fraction": 1.0
+      }
+    ],
+    "omics_type": [
+      {
+        "value": "amplicon",
+        "count": 7557,
+        "fraction": 1.0
+      }
+    ],
+    "amplicon_gene": [
+      {
+        "value": "16S rRNA",
+        "count": 7557,
+        "fraction": 1.0
+      }
+    ],
+    "primer_set": [
+      {
+        "value": "515fbc/806r",
+        "count": 7557,
+        "fraction": 1.0
+      }
+    ],
+    "subfragment": [
+      {
+        "value": "V4",
+        "count": 7557,
+        "fraction": 1.0
+      }
+    ],
+    "library_strategy": [
+      {
+        "value": "AMPLICON",
+        "count": 7557,
+        "fraction": 1.0
+      }
+    ],
+    "library_source": [
+      {
+        "value": "METAGENOMIC",
+        "count": 7557,
+        "fraction": 1.0
+      }
+    ],
+    "library_selection": [
+      {
+        "value": "PCR",
+        "count": 7557,
+        "fraction": 1.0
+      }
+    ],
+    "instrument_model": [
+      {
+        "value": "Illumina MiSeq",
+        "count": 7557,
+        "fraction": 1.0
+      }
+    ]
+  }
+}

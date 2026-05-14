@@ -1,0 +1,42 @@
+{
+  "dummy": [
+    {
+      "doi": "10.4103/2277-9175.188491",
+      "publication_title": "Study of the effects of controlled morphine administration for treatment of anxiety, depression and cognition impairment in morphine-addicted rats.",
+      "pub_year": "2016",
+      "status": "\u2713 Extraction complete.",
+      "source": "pmid",
+      "bioproject_accession": "dummy",
+      "accession_mentions_in_text": 0,
+      "methodology_details": {
+        "primer_names": [],
+        "primer_sequences": [
+          "AMMADYASANBANGASH",
+          "HAMMADYASANBANGASH",
+          "MADYASANBANGASH",
+          "MMADYASANBANGASH"
+        ],
+        "variable_regions": [],
+        "extraction_protocol_and_kits": [],
+        "pcr_conditions_and_kits": [],
+        "sequencing_details": [],
+        "sample_storage": [],
+        "unextracted_flag": false,
+        "unextracted_reason": "",
+        "verification_status": "Unverified (no DB match)",
+        "validated_primers": [],
+        "primer_db_used": true,
+        "llm_used": false,
+        "llm_model": null,
+        "extraction_method": "regex mining only"
+      },
+      "secondary_citations_found": [],
+      "materials_and_methods_section_found": false,
+      "supplementary_info": {
+        "fetched": false,
+        "source": null,
+        "text_length": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "rows": 45,
+  "columns": 519,
+  "filters": {},
+  "composition": {
+    "sample_category": [
+      {
+        "value": "Unknown",
+        "count": 45,
+        "fraction": 1.0
+      }
+    ],
+    "omics_type": [
+      {
+        "value": "amplicon",
+        "count": 45,
+        "fraction": 1.0
+      }
+    ],
+    "amplicon_gene": [
+      {
+        "value": "16S rRNA",
+        "count": 45,
+        "fraction": 1.0
+      }
+    ],
+    "primer_set": [
+      {
+        "value": "Unknown",
+        "count": 45,
+        "fraction": 1.0
+      }
+    ],
+    "subfragment": [
+      {
+        "value": "Unknown",
+        "count": 45,
+        "fraction": 1.0
+      }
+    ],
+    "library_strategy": [
+      {
+        "value": "AMPLICON",
+        "count": 45,
+        "fraction": 1.0
+      }
+    ],
+    "library_source": [
+      {
+        "value": "METAGENOMIC",
+        "count": 45,
+        "fraction": 1.0
+      }
+    ],
+    "library_selection": [
+      {
+        "value": "PCR",
+        "count": 45,
+        "fraction": 1.0
+      }
+    ],
+    "instrument_model": [
+      {
+        "value": "Illumina MiSeq",
+        "count": 45,
+        "fraction": 1.0
+      }
+    ]
+  }
+}

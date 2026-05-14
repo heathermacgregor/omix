@@ -1,0 +1,42 @@
+{
+  "rows": 1,
+  "columns": 26,
+  "filters": {},
+  "composition": {
+    "sample_category": [
+      {
+        "value": "environmental",
+        "count": 1,
+        "fraction": 1.0
+      }
+    ],
+    "omics_type": [
+      {
+        "value": "Unknown",
+        "count": 1,
+        "fraction": 1.0
+      }
+    ],
+    "amplicon_gene": [
+      {
+        "value": "Unknown",
+        "count": 1,
+        "fraction": 1.0
+      }
+    ],
+    "primer_set": [
+      {
+        "value": "Unknown",
+        "count": 1,
+        "fraction": 1.0
+      }
+    ],
+    "subfragment": [
+      {
+        "value": "Unknown",
+        "count": 1,
+        "fraction": 1.0
+      }
+    ]
+  }
+}

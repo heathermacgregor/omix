@@ -1,0 +1,135 @@
+{
+  "rows": 1391,
+  "columns": 519,
+  "filters": {},
+  "composition": {
+    "sample_category": [
+      {
+        "value": "Unknown",
+        "count": 1391,
+        "fraction": 1.0
+      }
+    ],
+    "omics_type": [
+      {
+        "value": "amplicon",
+        "count": 1391,
+        "fraction": 1.0
+      }
+    ],
+    "amplicon_gene": [
+      {
+        "value": "Unknown",
+        "count": 649,
+        "fraction": 0.4666
+      },
+      {
+        "value": "ITS",
+        "count": 337,
+        "fraction": 0.2423
+      },
+      {
+        "value": "16S rRNA",
+        "count": 271,
+        "fraction": 0.1948
+      },
+      {
+        "value": "18S rRNA",
+        "count": 134,
+        "fraction": 0.0963
+      }
+    ],
+    "primer_set": [
+      {
+        "value": "Unknown",
+        "count": 1391,
+        "fraction": 1.0
+      }
+    ],
+    "subfragment": [
+      {
+        "value": "Unknown",
+        "count": 1047,
+        "fraction": 0.7527
+      },
+      {
+        "value": "ITS2",
+        "count": 344,
+        "fraction": 0.2473
+      }
+    ],
+    "library_strategy": [
+      {
+        "value": "AMPLICON",
+        "count": 1391,
+        "fraction": 1.0
+      }
+    ],
+    "library_source": [
+      {
+        "value": "METAGENOMIC",
+        "count": 1020,
+        "fraction": 0.7333
+      },
+      {
+        "value": "GENOMIC",
+        "count": 353,
+        "fraction": 0.2538
+      },
+      {
+        "value": "VIRAL RNA",
+        "count": 15,
+        "fraction": 0.0108
+      },
+      {
+        "value": "OTHER",
+        "count": 3,
+        "fraction": 0.0022
+      }
+    ],
+    "library_selection": [
+      {
+        "value": "PCR",
+        "count": 1388,
+        "fraction": 0.9978
+      },
+      {
+        "value": "RANDOM PCR",
+        "count": 3,
+        "fraction": 0.0022
+      }
+    ],
+    "instrument_model": [
+      {
+        "value": "Illumina MiSeq",
+        "count": 618,
+        "fraction": 0.4443
+      },
+      {
+        "value": "Illumina NovaSeq 6000",
+        "count": 595,
+        "fraction": 0.4277
+      },
+      {
+        "value": "Sequel II",
+        "count": 96,
+        "fraction": 0.069
+      },
+      {
+        "value": "Ion Torrent S5 XL",
+        "count": 36,
+        "fraction": 0.0259
+      },
+      {
+        "value": "Illumina HiSeq 2000",
+        "count": 34,
+        "fraction": 0.0244
+      },
+      {
+        "value": "NextSeq 2000",
+        "count": 12,
+        "fraction": 0.0086
+      }
+    ]
+  }
+}

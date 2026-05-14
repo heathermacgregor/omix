@@ -1,0 +1,435 @@
+{
+  "PRJNA1001621": [
+    {
+      "doi": "10.1128/aem.02588-25",
+      "publication_title": "Habitat heterogeneity drives microbial community assembly and functional specialization in extremely arid ecosystems.",
+      "pub_year": "2026",
+      "status": "\u2713 Extraction complete.",
+      "matched_queries": [
+        "PRJNA1001621",
+        "DATA:\"PRJNA1001621\""
+      ],
+      "matched_sources": [
+        "europepmc"
+      ],
+      "source": "europepmc",
+      "bioproject_accession": "PRJNA1001621",
+      "accession_mentions_in_text": 0,
+      "methodology_details": {
+        "primer_names": [],
+        "primer_sequences": [],
+        "variable_regions": [],
+        "extraction_protocol_and_kits": [],
+        "pcr_conditions_and_kits": [],
+        "sequencing_details": [],
+        "sample_storage": [],
+        "unextracted_flag": false,
+        "unextracted_reason": "",
+        "verification_status": "Unverified (no primer DB)",
+        "validated_primers": [],
+        "primer_db_used": false,
+        "llm_used": false,
+        "llm_model": null,
+        "extraction_method": "regex mining only"
+      },
+      "secondary_citations_found": [],
+      "materials_and_methods_section_found": false,
+      "supplementary_info": {
+        "fetched": false,
+        "source": null,
+        "text_length": 0
+      }
+    }
+  ],
+  "PRJNA1001635": [],
+  "PRJNA1001659": [],
+  "PRJNA1043863": [],
+  "PRJNA1061365": [],
+  "PRJNA1062597": [],
+  "PRJNA1081162": [
+    {
+      "doi": "10.3389/fmicb.2025.1543933",
+      "publication_title": "Bacillus megaterium NCT-2 agent alters soil nutrients, vegetable quality, and root microecology in secondary salinized soil",
+      "pub_year": "2025",
+      "status": "\u2713 Extraction complete.",
+      "matched_queries": [
+        "PRJNA1081162"
+      ],
+      "matched_sources": [
+        "core"
+      ],
+      "source": "core",
+      "bioproject_accession": "PRJNA1081162",
+      "accession_mentions_in_text": 3,
+      "methodology_details": {
+        "primer_names": [],
+        "primer_sequences": [
+          "ACHVGGGTWTCTAAT",
+          "ACTACHVGGGTWTCTAAT",
+          "ACTCCTACGGGAGGCAGCAG",
+          "ASHASHANKKUMARM",
+          "CCTACGGGAGGCAGCAG",
+          "CTACGGGAGGCAGCAG",
+          "CTACHVGGGTWTCTAAT",
+          "CTCCTACGGGAGGCAGCAG",
+          "GACTACHVGGGTWTCTAAT",
+          "GGACTACHVGGGTWTCTAAT",
+          "MASSANDCDACCUMU",
+          "TACGGGAGGCAGCAG",
+          "TACHVGGGTWTCTAAT",
+          "TCCTACGGGAGGCAGCAG"
+        ],
+        "variable_regions": [],
+        "extraction_protocol_and_kits": [],
+        "pcr_conditions_and_kits": [],
+        "sequencing_details": [],
+        "sample_storage": [],
+        "unextracted_flag": false,
+        "unextracted_reason": "",
+        "verification_status": "Unverified (no primer DB)",
+        "validated_primers": [],
+        "primer_db_used": false,
+        "llm_used": false,
+        "llm_model": null,
+        "extraction_method": "regex mining only"
+      },
+      "secondary_citations_found": [],
+      "materials_and_methods_section_found": false,
+      "supplementary_info": {
+        "fetched": false,
+        "source": null,
+        "text_length": 0
+      }
+    }
+  ],
+  "PRJNA1173098": [
+    {
+      "doi": "10.1186/s13020-025-01183-1",
+      "publication_title": "Sanren decoction ameliorates ulcerative colitis by modulating gut microbiota and macrophage polarization to enhance intestinal barrier function.",
+      "pub_year": "2025",
+      "status": "\u2713 Extraction complete.",
+      "matched_queries": [
+        "PRJNA1173098",
+        "DATA:\"PRJNA1173098\""
+      ],
+      "matched_sources": [
+        "europepmc"
+      ],
+      "source": "europepmc",
+      "bioproject_accession": "PRJNA1173098",
+      "accession_mentions_in_text": 0,
+      "methodology_details": {
+        "primer_names": [],
+        "primer_sequences": [],
+        "variable_regions": [],
+        "extraction_protocol_and_kits": [],
+        "pcr_conditions_and_kits": [],
+        "sequencing_details": [],
+        "sample_storage": [],
+        "unextracted_flag": false,
+        "unextracted_reason": "",
+        "verification_status": "Unverified (no primer DB)",
+        "validated_primers": [],
+        "primer_db_used": false,
+        "llm_used": false,
+        "llm_model": null,
+        "extraction_method": "regex mining only"
+      },
+      "secondary_citations_found": [],
+      "materials_and_methods_section_found": false,
+      "supplementary_info": {
+        "fetched": true,
+        "source": "Europe PMC",
+        "text_length": 76
+      }
+    }
+  ],
+  "PRJNA1249192": [],
+  "PRJNA1281722": [
+    {
+      "doi": "10.1038/s41467-025-65207-y",
+      "publication_title": "Deep-sea viral diversity and their role in host metabolism of complex organic matter.",
+      "pub_year": "2025",
+      "status": "\u2713 Extraction complete.",
+      "matched_queries": [
+        "PRJNA1281722",
+        "DATA:\"PRJNA1281722\""
+      ],
+      "matched_sources": [
+        "europepmc"
+      ],
+      "source": "europepmc",
+      "bioproject_accession": "PRJNA1281722",
+      "accession_mentions_in_text": 2,
+      "methodology_details": {
+        "primer_names": [],
+        "primer_sequences": [
+          "ACHVGGGTWTCTAAT",
+          "ACTACHVGGGTWTCTAAT",
+          "ACTCCTACGGGAGGCAGCAG",
+          "CANDABUNDANTMAR",
+          "CCTACGGGAGGCAGCAG",
+          "CTACGGGAGGCAGCAG",
+          "CTACHVGGGTWTCTAAT",
+          "CTCCTACGGGAGGCAGCAG",
+          "GACTACHVGGGTWTCTAAT",
+          "GGACTACHVGGGTWTCTAAT",
+          "RNATANTWASTRANS",
+          "TACGGGAGGCAGCAG",
+          "TACHVGGGTWTCTAAT",
+          "TCCTACGGGAGGCAGCAG"
+        ],
+        "variable_regions": [],
+        "extraction_protocol_and_kits": [],
+        "pcr_conditions_and_kits": [],
+        "sequencing_details": [],
+        "sample_storage": [],
+        "unextracted_flag": false,
+        "unextracted_reason": "",
+        "verification_status": "Unverified (no primer DB)",
+        "validated_primers": [],
+        "primer_db_used": false,
+        "llm_used": false,
+        "llm_model": null,
+        "extraction_method": "regex mining only"
+      },
+      "secondary_citations_found": [],
+      "materials_and_methods_section_found": false,
+      "supplementary_info": {
+        "fetched": false,
+        "source": null,
+        "text_length": 0
+      }
+    }
+  ],
+  "PRJNA597961": [],
+  "PRJNA803164": [
+    {
+      "doi": "10.1186/s12862-022-02002-z",
+      "publication_title": "Dynamics of phytoplankton community in scallop farming waters of the Bohai Sea and North Yellow Sea in China.",
+      "pub_year": "2022",
+      "status": "\u2713 Extraction complete.",
+      "matched_queries": [
+        "PRJNA803164",
+        "DATA:\"PRJNA803164\""
+      ],
+      "matched_sources": [
+        "europepmc"
+      ],
+      "source": "europepmc",
+      "bioproject_accession": "PRJNA803164",
+      "accession_mentions_in_text": 2,
+      "methodology_details": {
+        "primer_names": [],
+        "primer_sequences": [
+          "MASSANDSTRUCTUR"
+        ],
+        "variable_regions": [],
+        "extraction_protocol_and_kits": [],
+        "pcr_conditions_and_kits": [],
+        "sequencing_details": [],
+        "sample_storage": [],
+        "unextracted_flag": false,
+        "unextracted_reason": "",
+        "verification_status": "Unverified (no primer DB)",
+        "validated_primers": [],
+        "primer_db_used": false,
+        "llm_used": false,
+        "llm_model": null,
+        "extraction_method": "regex mining only"
+      },
+      "secondary_citations_found": [],
+      "materials_and_methods_section_found": false,
+      "supplementary_info": {
+        "fetched": false,
+        "source": null,
+        "text_length": 0
+      }
+    }
+  ],
+  "PRJNA997451": [],
+  "PRJNA1072152": [],
+  "PRJNA1072258": [],
+  "PRJNA1110979": [
+    {
+      "doi": "10.1007/s44307-025-00070-y",
+      "publication_title": "Rare and abundant taxa in Artemisia desertorum rhizosphere soils demonstrate disparate responses to drought stress.",
+      "pub_year": "2025",
+      "status": "\u2713 Extraction complete.",
+      "matched_queries": [
+        "PRJNA1110979",
+        "DATA:\"PRJNA1110979\""
+      ],
+      "matched_sources": [
+        "europepmc"
+      ],
+      "source": "europepmc",
+      "bioproject_accession": "PRJNA1110979",
+      "accession_mentions_in_text": 3,
+      "methodology_details": {
+        "primer_names": [],
+        "primer_sequences": [
+          "ACHVGGGTWTCTAAT",
+          "ACTACHVGGGTWTCTAAT",
+          "ACTCCTACGGGAGGCAGCA",
+          "ANDABUNDANTBACT",
+          "ANDABUNDANTSUBC",
+          "CCTACGGGAGGCAGCA",
+          "CTACGGGAGGCAGCA",
+          "CTACHVGGGTWTCTAAT",
+          "CTCCTACGGGAGGCAGCA",
+          "GACTACHVGGGTWTCTAAT",
+          "GGACTACHVGGGTWTCTAAT",
+          "GTHATABUNDANTTA",
+          "NABUNDANTANDRAR",
+          "NGTHATABUNDANTTA",
+          "NGURBANTUNGGUTD",
+          "NTABUNDANTANDRAR",
+          "RABUNDANTANDRAR",
+          "RTHANABUNDANTTA",
+          "STTHATABUNDANTTA",
+          "TABUNDANTANDRAR",
+          "TACHVGGGTWTCTAAT",
+          "TCCTACGGGAGGCAGCA",
+          "TTHATABUNDANTTA",
+          "WTHATABUNDANTTA"
+        ],
+        "variable_regions": [],
+        "extraction_protocol_and_kits": [],
+        "pcr_conditions_and_kits": [],
+        "sequencing_details": [],
+        "sample_storage": [],
+        "unextracted_flag": false,
+        "unextracted_reason": "",
+        "verification_status": "Unverified (no primer DB)",
+        "validated_primers": [],
+        "primer_db_used": false,
+        "llm_used": false,
+        "llm_model": null,
+        "extraction_method": "regex mining only"
+      },
+      "secondary_citations_found": [],
+      "materials_and_methods_section_found": false,
+      "supplementary_info": {
+        "fetched": false,
+        "source": null,
+        "text_length": 0
+      }
+    }
+  ],
+  "PRJNA688815": [
+    {
+      "doi": "10.1128/mbio.00287-22",
+      "publication_title": "Characterization of the First Cultured Representative of \"<i>Candidatus</i> Thermofonsia\" Clade 2 within <i>Chloroflexi</i> Reveals Its Phototrophic Lifestyle.",
+      "pub_year": "2022",
+      "status": "\u2713 Extraction complete.",
+      "matched_queries": [
+        "PRJNA688815",
+        "DATA:\"PRJNA688815\""
+      ],
+      "matched_sources": [
+        "europepmc"
+      ],
+      "source": "europepmc",
+      "bioproject_accession": "PRJNA688815",
+      "accession_mentions_in_text": 0,
+      "methodology_details": {
+        "primer_names": [],
+        "primer_sequences": [
+          "ACCTTGTTACGACTT",
+          "ACNNGGGTATCTAAT",
+          "ACTACNNGGGTATCTAAT",
+          "AGAGTTTGATCCTGGCTCAG",
+          "AGTTTGATCCTGGCTCAG",
+          "ANGACASANDSHAND",
+          "CCTAYGGGRBGCASCAG",
+          "CTACNNGGGTATCTAAT",
+          "CTAYGGGRBGCASCAG",
+          "GACTACNNGGGTATCTAAT",
+          "GAGTTTGATCCTGGCTCAG",
+          "GGACTACNNGGGTATCTAAT",
+          "GGTTACCTTGTTACGACTT",
+          "GTTACCTTGTTACGACTT",
+          "GTTTGATCCTGGCTCAG",
+          "GWANGACASANDSHAND",
+          "NGWANGACASANDSHAND",
+          "NSUNACASANDSHAND",
+          "SUNACASANDSHAND",
+          "TACCTTGTTACGACTT",
+          "TACNNGGGTATCTAAT",
+          "TAYGGGRBGCASCAG",
+          "TTACCTTGTTACGACTT",
+          "TTGATCCTGGCTCAG",
+          "TTTGATCCTGGCTCAG",
+          "WANGACASANDSHAND"
+        ],
+        "variable_regions": [],
+        "extraction_protocol_and_kits": [],
+        "pcr_conditions_and_kits": [],
+        "sequencing_details": [],
+        "sample_storage": [],
+        "unextracted_flag": false,
+        "unextracted_reason": "",
+        "verification_status": "Unverified (no primer DB)",
+        "validated_primers": [],
+        "primer_db_used": false,
+        "llm_used": false,
+        "llm_model": null,
+        "extraction_method": "regex mining only"
+      },
+      "secondary_citations_found": [],
+      "materials_and_methods_section_found": false,
+      "supplementary_info": {
+        "fetched": false,
+        "source": null,
+        "text_length": 0
+      }
+    }
+  ],
+  "PRJNA641521": [
+    {
+      "doi": "10.1093/femsec/fiaa205",
+      "publication_title": "Effects of simulated drought on biological soil quality, microbial diversity and yields under long-term conventional and organic agriculture.",
+      "pub_year": "2020",
+      "status": "\u2713 Extraction complete.",
+      "matched_queries": [
+        "PRJNA641521",
+        "DATA:\"PRJNA641521\""
+      ],
+      "matched_sources": [
+        "europepmc"
+      ],
+      "source": "europepmc",
+      "bioproject_accession": "PRJNA641521",
+      "accession_mentions_in_text": 2,
+      "methodology_details": {
+        "primer_names": [],
+        "primer_sequences": [
+          "NASNYANDMCBRATN"
+        ],
+        "variable_regions": [],
+        "extraction_protocol_and_kits": [],
+        "pcr_conditions_and_kits": [],
+        "sequencing_details": [],
+        "sample_storage": [],
+        "unextracted_flag": false,
+        "unextracted_reason": "",
+        "verification_status": "Unverified (no primer DB)",
+        "validated_primers": [],
+        "primer_db_used": false,
+        "llm_used": false,
+        "llm_model": null,
+        "extraction_method": "regex mining only"
+      },
+      "secondary_citations_found": [],
+      "materials_and_methods_section_found": false,
+      "supplementary_info": {
+        "fetched": false,
+        "source": null,
+        "text_length": 0
+      }
+    }
+  ],
+  "PRJDB6413": [],
+  "PRJDB9083": []
+}

@@ -1,0 +1,21 @@
+credentials:
+  email: "test@example.com"
+  ena_email: "test@example.com"
+  llm_api_key: ""
+  ncbi_api_key: ""
+
+apis:
+  enabled: true
+  sequence:
+    ena:
+      enabled: true
+
+metadata:
+  sample_id_column: "#sampleid"
+
+paths:
+  project: "/usr2/people/macgregor/scripts/omix"
+  cache_dir: "/usr2/people/macgregor/scripts/omix/.cache/cli_test"
+  logs_dir: "/usr2/people/macgregor/scripts/omix/logs"
+
+omics_type: "16S"

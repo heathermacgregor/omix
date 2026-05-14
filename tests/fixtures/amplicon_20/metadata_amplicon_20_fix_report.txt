@@ -1,0 +1,19 @@
+Data Quality Fixes Applied
+======================================================================
+
+Input:  cli_test/metadata_amplicon_20_enriched.csv
+Output: cli_test/metadata_amplicon_20_enriched_fixed.csv
+Timestamp: 2026-05-13 19:55:16.050453
+
+FIXES APPLIED:
+----------------------------------------------------------------------
+1. ITS2 Classification: Moved 344 rows from subfragment → amplicon_gene
+2. Publication Fields: Ensured columns exist (manual enrichment needed)
+3. Duplicate Columns:
+   - Merged 193 _run columns
+   - Merged 100 _biosample columns
+   - Dropped 293 duplicate columns
+4. Geospatial QC: Validated coordinate ranges
+5. Amplicon Gene: Filled gaps from subfragment
+
+Shape change: (1391, 227)

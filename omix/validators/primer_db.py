@@ -123,12 +123,11 @@ class ProbeBaseDatabase:
     def validate_extracted_pair(
         self, seq1: str, seq2: str
     ) -> Optional[Dict[str, Any]]:
-        """
-        Validate a primer pair against the database.
+        """Validate a primer pair against the database.
 
-        Returns a dict with:
-            fwd_seq, rev_seq, region, fwd_name, rev_name
-        or None if no valid pair found.
+        Returns a dictionary containing the validated forward and reverse
+        primer sequences, the matched region, and the primer names, or None if
+        no valid pair is found.
         """
         matches1 = self._find_matching_records(seq1)
         matches2 = self._find_matching_records(seq2)

@@ -1,0 +1,42 @@
+{
+  "rows": 20,
+  "columns": 26,
+  "filters": {},
+  "composition": {
+    "sample_category": [
+      {
+        "value": "Unknown",
+        "count": 20,
+        "fraction": 1.0
+      }
+    ],
+    "omics_type": [
+      {
+        "value": "Unknown",
+        "count": 20,
+        "fraction": 1.0
+      }
+    ],
+    "amplicon_gene": [
+      {
+        "value": "Unknown",
+        "count": 20,
+        "fraction": 1.0
+      }
+    ],
+    "primer_set": [
+      {
+        "value": "Unknown",
+        "count": 20,
+        "fraction": 1.0
+      }
+    ],
+    "subfragment": [
+      {
+        "value": "Unknown",
+        "count": 20,
+        "fraction": 1.0
+      }
+    ]
+  }
+}

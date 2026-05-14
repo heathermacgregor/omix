@@ -1,0 +1,3 @@
+#sampleid,collection_date,lat,location,lon,empo_1,empo_2,empo_3,env_biome,env_feature,env_material,nuclear_contamination_status,ena_study_acc,ena_sample_acc,ena_experiment_acc,ena_run_acc,publication_doi,sample_category
+sample_a,2020-01-15,37.7749,San Francisco USA,-122.4194,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,False,N/A,N/A,N/A,N/A,,environmental
+sample_b,2021-05-20,40.7128,New York USA,-74.006,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,False,N/A,N/A,N/A,N/A,,environmental
