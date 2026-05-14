@@ -1,0 +1,54 @@
+# omix – example configuration
+# Copy this file to config.yaml and fill in your details.
+
+credentials:
+  email: "your.email@example.com"          # required for polite API usage
+  ena_email: ""                            # defaults to email if empty
+  llm_api_key: ""                          # for methodology extraction (optional)
+  ncbi_api_key: ""                         # higher NCBI rate limits (optional)
+  dimensions_api_key: ""                   # optional
+  ieee_api_key: ""
+  mendeley_api_key: ""
+  springer_api_key: ""
+  lens_api_key: ""
+
+apis:
+  enabled: true
+  sequence:
+    ena:
+      enabled: true
+      max_concurrent: 5                    # concurrent ENA API requests
+      batch_size: 100                      # accessions per chunk
+      cache_ttl_days: 30                   # how long to keep cache entries
+      fetch_phases: true                   # phase‑1 essential / phase‑2 extended
+      phase2_async: true                   # run phase‑2 in background
+      cache_write:
+        batch_size: 100                    # queued writes before a flush
+        flush_interval_seconds: 5.0        # auto‑flush interval
+
+metadata:
+  sample_id_column: "#sampleid"            # primary column for sample IDs
+  exclude_host: false                      # set to true to remove host‑associated samples
+  enable_geocoding: true                   # set to false to skip reverse geocoding
+  columns_to_drop: []                      # columns to drop during cleaning
+  force_numeric_columns:                   # columns to coerce to numeric
+    - lat
+    - lon
+    - depth
+    - altitude
+  mappings: {}                             # categorical value replacements
+  suffixes_to_collapse: []                 # e.g. ["_ena", "_study"]
+
+publication:
+  max_concurrent_apis: 5                   # parallel API searches
+  rounds: 3                                # citation‑chasing rounds
+  max_pdf_pages: 10                        # pages to extract from PDFs
+  max_file_size: 15000000                  # 15 MB
+
+paths:
+  project: "."
+  cache_dir: ".cache"                      # SQLite cache directory
+  logs_dir: "logs"                         # log file directory
+  primer_db: null                          # optional path to primer database
+
+omics_type: "16S"                          # default omics type
