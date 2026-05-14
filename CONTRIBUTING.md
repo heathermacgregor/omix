@@ -18,6 +18,16 @@ pip install -e .[dev]
 
 Run the full test suite:
 
+
+Large test fixtures
+-------------------
+
+Some fixtures in `tests/fixtures/` are large and can bloat the repository. We
+recommend using Git LFS for files larger than ~50MB. A recommended `.gitattributes`
+entry has been added to the repository for `tests/fixtures/amplicon_20/metadata_amp_only.csv`.
+
+If you do not use Git LFS, consider trimming or replacing large fixtures with
+smaller samples before committing.
 ```bash
 python -m pytest
 ```

@@ -1,0 +1,2 @@
+# Recommend Git LFS for large test fixtures
+tests/fixtures/amplicon_20/metadata_amp_only.csv filter=lfs diff=lfs merge=lfs -text

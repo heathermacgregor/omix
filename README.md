@@ -111,3 +111,19 @@ Pass it with `--config my_config.yaml` or set environment variables like `OMIX_E
 Detailed guides are available in [docs/index.rst](docs/index.rst). The docs
 tree includes installation, usage, configuration, and API reference pages
 backed by Sphinx.
+
+## Testing & Help
+
+Quick commands to verify `omix` locally:
+
+```bash
+# Show available commands (concise)
+python -m omix.cli help
+
+# Run a lightweight smoke test (no network by default)
+python -m omix.cli test --fixture tests/fixtures/amplicon_20/demo_input_3_studies.csv
+```
+
+If you want continuous integration, the repository includes a GitHub Actions
+workflow (`.github/workflows/ci.yml`) that runs unit tests and the smoke test
+on pushes and pull requests.

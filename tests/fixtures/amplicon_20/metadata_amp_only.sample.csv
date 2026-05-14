@@ -1,0 +1,4 @@
+sampleid,study_accession,run_accession,omics_type
+SAMPLE1,PRJNA1001621,SRR000010,amplicon
+SAMPLE2,PRJNA1081162,SRR000011,amplicon
+SAMPLE3,PRJNA641521,SRR000012,amplicon
